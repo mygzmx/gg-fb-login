@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_ok</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DramaBox-站外注销-注销成功" transform="translate(-303, -436)">
+            <g id="编组-4" transform="translate(48, 436)">
+                <g id="ic_ok" transform="translate(255, 0)">
+                    <circle id="椭圆形" fill="#FF375F" cx="72" cy="72" r="72"></circle>
+                    <polyline id="路径" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" points="104 51 63.2727273 93 40 69"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

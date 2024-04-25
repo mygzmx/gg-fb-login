@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "prefer-const": "warn",
+    "react-hooks/exhaustive-deps": "off",
+    "indent": [
+      "warn",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      "off",
+      "single"
+    ],
+    "semi": [
+      "off",
+      "always"
+    ],
+    "eqeqeq": "off",
+    "max-lines": [
+      "error",
+      380
+    ],
+    "unicorn/filename-case": [
+      "off",
+      {
+        "cases": {
+          "camelCase": false,
+          "pascalCase": false,
+          "snakeCase": true,
+          "kebabCase": true
+        }
+      }
+    ],
+    "import/order": "off",
+    "react/jsx-key": [
+      "error"
+    ]
+  }
+}

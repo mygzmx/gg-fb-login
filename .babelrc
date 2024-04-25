@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "react-app",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "49",
+          "ios": "10"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-import",
+      {
+        "libraryName": "lodash",
+        "libraryDirectory": "",
+        "camel2DashComponentName": false
+      },
+      "lodash"
+    ]
+  ]
+}

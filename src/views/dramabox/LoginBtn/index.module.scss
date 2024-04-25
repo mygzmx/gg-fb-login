@@ -1,0 +1,70 @@
+.fbLoginBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 0.88rem;
+  padding: 0 0.77rem;
+  background-color: #5C94E6;
+  border-radius: 0.44rem;
+  margin-bottom: 0.4rem;
+
+  .fbWhiteIcon {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.16rem;
+  }
+
+  span {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.32rem;
+    color: #FFFFFF;
+  }
+}
+
+.ggLoginBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.77rem;
+  width: 100%;
+  height: 0.88rem;
+  background-color: #F3F3F5;
+  border-radius: 0.44rem;
+  position: relative;
+
+  .ggWhiteIcon {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.16rem;
+  }
+
+  span {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.32rem;
+    color: #333333;
+  }
+
+  .ggIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    div[aria-labelledby="button-label"] {
+      opacity: 0 !important;
+    }
+
+    iframe {
+      opacity: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.titleBox {
+  //position: sticky;
+  //top: 0;
+  //left: 0;
+  width: 100%;
+  height: 1.88rem;
+  //z-index: 9;
+
+  .titleTxt {
+    height: 0.88rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 0.34rem;
+    color: #333333;
+    font-family: Roboto-Medium;
+  }
+
+  .logoBox {
+    height: 1rem;
+    padding: 0.24rem 0 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      width: 0.56rem;
+      height: 0.56rem;
+    }
+
+    span {
+      font-family: Roboto-Medium;
+      margin-left: 0.12rem;
+      font-weight: bold;
+      font-size: 0.32rem;
+      color: #333333;
+    }
+  }
+}

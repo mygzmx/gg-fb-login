@@ -1,0 +1,113 @@
+$theme_color: #FF375F;
+
+.logoutWrap {
+  min-height: 100vh;
+  position: relative;
+  font-family: Roboto, Roboto-Regular;
+  background-color: #F8F8FA;
+}
+
+.dialogBody {
+  width: 5.82rem;
+  //height: 3.34rem;
+  padding: 0.48rem 0.4rem 0.4rem !important;
+  border-radius: 0.16rem;
+
+  :global {
+    .adm-dialog-content {
+      padding: 0 0 0.4rem !important;
+      text-align: center;
+      font-size: 0;
+    }
+
+    .adm-auto-center-content {
+      font-weight: 400;
+      font-size: 0.28rem;
+      color: #333333;
+      line-height: 0.36rem;
+      text-align: center;
+    }
+
+    .adm-dialog-action-row {
+      border: none !important;
+      justify-content: space-between;
+    }
+
+    .adm-dialog-button {
+      flex: none !important;
+      padding: 0 !important;
+      width: 2.35rem !important;
+      height: 0.88rem !important;
+      border-radius: 0.44rem !important;
+      border: 1px solid #FF375F !important;
+      font-weight: 500 !important;
+      font-size: 0.32rem !important;
+
+      &:first-child {
+        color: #FFFFFF;
+        background: linear-gradient(270deg, #FF871F 0%, #FF0045 48%, #F40065 100%);
+      }
+
+      &:last-child {
+        color: #FF375F;
+      }
+    }
+  }
+}
+
+.dialogAlert {
+  :global {
+    .adm-dialog-action-row {
+      justify-content: center;
+    }
+    .adm-dialog-action-row button{
+      width: 100% !important;
+      color: #FFFFFF !important;
+    }
+  }
+}
+
+.successIcon {
+  width: 1.44rem;
+  height: 1.44rem;
+
+  circle {
+    fill: $theme_color !important;
+  }
+}
+
+.acceptIcon {
+  width: 0.33rem;
+  height: 0.33rem;
+
+  path:first-child {
+    fill: $theme_color !important;
+  }
+}
+
+.btnBox {
+  padding: 0 0.32rem;
+
+  button {
+    width: 100%;
+    height: 0.88rem;
+    background: $theme_color;
+    border-radius: 0.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    // font-family: Roboto-Medium, Roboto;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(270deg, #FF871F 0%, #FF0045 48%, #F40065 100%);
+    color: #FFFFFF;
+  }
+}
+
+.btnBoxDisabled {
+  button {
+    background: #F8F8FA !important;
+    color: rgba(51,51,51,0.3) !important;
+  }
+}

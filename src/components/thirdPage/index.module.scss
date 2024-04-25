@@ -1,0 +1,20 @@
+.thirdMain {
+  padding: 1.4rem 0.32rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .mainLabel {
+    font-family: Roboto-Medium;
+    margin-top: 0.56rem;
+    width: 100%;
+    height: 0.48rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.48rem;
+    text-align: center;
+    opacity: 0.9;
+  }
+}

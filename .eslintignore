@@ -1,0 +1,6 @@
+/scripts
+/config
+/build
+/package-lock.json
+/public/gsi_client.js
+/public/facebook_sdk.js

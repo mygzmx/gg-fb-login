@@ -1,0 +1,63 @@
+.loginBox {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.titleBox {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.88rem;
+  z-index: 9;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+  .backIcon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    bottom: 0.2rem;
+    height: 100%;
+    padding: 0.22rem 0.42rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 0.32rem;
+      height: 0.32rem;
+    }
+  }
+}
+
+.content {
+  text-align: center;
+  padding: 1.66rem 1.15rem 0;
+
+  .logo {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  h1 {
+    font-family: Roboto-Medium;
+    margin-top: 0.24rem;
+    font-weight: 500;
+    font-size: 0.40rem;
+    color: #333333;
+    line-height: 0.48rem;
+  }
+
+  .loginBtn {
+    padding-top: 1.44rem;
+    font-weight: 500;
+    font-size: 0.32rem;
+    color: #333333;
+  }
+}
+
+

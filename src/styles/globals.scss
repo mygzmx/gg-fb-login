@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../common/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(../common/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../common/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../common/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url(../common/Roboto/Roboto-Black.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, PingFangSC, PingFang SC, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*min-height: 100vh;*/
+  //background-color: #000000;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  outline: none;
+  border: none;
+  user-select: text;
+}
+
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #acacac;
+  font-weight: 400;
+}
+
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  outline: none;
+  padding: 0;
+}
+
+.adm-toast-main {
+  background: rgba(0, 0, 0, 0.8) !important;
+  font-weight: 400 !important;
+  font-size: 0.32rem !important;
+  color: #FFFFFF !important;
+  line-height: 0.38rem !important;
+  padding: 0.32rem 0.48rem !important;
+  max-width: 80% !important;
+}
+
+#credential_picker_iframe {
+  display: none !important;
+}
